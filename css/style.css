@@ -5,13 +5,17 @@
 .main__block__photo {
   height: 100vh;
 }
+@media (max-width: 800px) {
+  .main__block__photo {
+    max-height: 200px;
+  }
+}
 .main__block__photo .mobile {
   display: none;
 }
 @media (max-width: 800px) {
   .main__block__photo {
     width: 100%;
-    max-height: 624px;
   }
   .main__block__photo .mobile {
     display: inline;
@@ -47,6 +51,7 @@
 .header__menu {
   display: flex;
   gap: 31px;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .header__menu line, .header__menu path {
