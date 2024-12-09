@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #35deb1;
+  --secondary-color: #141024;
+  --level: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter 18pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #141024;
+  line-height: 160%;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=global.css.map */
